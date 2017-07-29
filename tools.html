@@ -10,90 +10,89 @@
 
 		<!-- Header -->
 			<header id="header">
-				<div class="logo"><a href="index.html">Joe Misner</a></div>
+				<!-- <div class="logo"><a href="index.html">Joe Misner</a></div> -->
 				<a href="#menu">Menu</a>
 			</header>
 
 		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="index.html#main">Resume</a></li>
-					<li><a href="tools.html">Tools</a></li>
-				</ul>
-			</nav>
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#resume">Résumé</a></li>
+				<li><a href="tools.html">Tools</a></li>
+			</ul>
+		</nav>
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Header Section -->
-					<section class="wrapper">
-						<div class="inner">
-							<header class="align-center">
-								<h1>Misner Tools</h1>
-								<p>Utilities for administrators who&nbsp;manage&nbsp;and integrate&nbsp;applications used for systems&nbsp;monitoring and service assurance</p>
-							</header>
-							<div class="flex flex-2">
-								<div class="col col2">
-									<h3>GitHub</h3>
-									<p>All tools are <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 licensed freeware</a> written in <a href="http://www.python.org/">Python</a> and hosted on <a href="https://github.com/joemisner">GitHub at github.com/joemisner</a></p>
-									<p>Feel free to download and critique!</p>
-									<a href="#misnersplunktool" class="button big scrolly">Misner Splunk Tool</a>
-									<a href="#misnertraptool" class="button big scrolly">Misner Trap Tool</a>
-								</div>
-								<div class="col col1 first">
-									<div class="image round fit">
-										<a href="#" class="link"><img src="images/python.jpg" alt="" /></a>
-									</div>
-								</div>
-							</div>
-            </div>
-					</section>
-
-				<!-- Misner Splunk Tool -->
-				<section class="wrapper style1" id="misnersplunktool">
-					<div class="inner">
-						<div class="flex flex-2">
-							<div class="col col1 first">
-								<div class="image square fit">
-									<a href="images/misnersplunktool.png" class="link"><img src="images/misnersplunktool.png" alt="" /></a>
-								</div>
-							</div>
-							<div class="col col2">
-								<h3>Misner Splunk Tool</h3>
-								<p>Connects to a Splunk Enterprise or Universal Forwarder instance via REST API, retrieving the instance's configurations, input status, apps, and other useful information for troubleshooting and analysis. This tool's intention is to grant easy access into remote Splunk instances where shell or web access may not be available, but the splunkd management port (default 8089) is accessible.</p>
-                <p>Download: <a href="https://github.com/joemisner/misnersplunktool/releases">https://github.com/joemisner/misnersplunktool/releases</a></p>
-								<p>Latest Version: 2017.07.26</p>
-							</div>
+		<!-- Top -->
+		<section class="wrapper" id="top">
+			<div class="inner">
+				<header class="align-center">
+					<h1>Misner Tools</h1>
+					<p>Utilities for administrators who manage and integrate applications used for systems monitoring and service assurance</p>
+				</header>
+				<div class="flex flex-2">
+					<div class="col col2">
+						<h3>GitHub</h3>
+						<p>All tools are <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3 licensed freeware</a>, written in <a href="http://www.python.org/">Python</a> and hosted on <a href="https://github.com/joemisner">GitHub at github.com/joemisner</a></p>
+						<p>Feel free to download and critique!</p>
+						<a href="#misnersplunktool" class="button big scrolly">Misner Splunk Tool</a>
+						<a href="#misnertraptool" class="button big scrolly">Misner Trap Tool</a>
+					</div>
+					<div class="col col1 first">
+						<div class="image round fit">
+							<a href="#" class="link"><img src="images/python.jpg" alt="" /></a>
 						</div>
 					</div>
-				</section>
+				</div>
+      </div>
+		</section>
 
-				<!-- Misner Trap Tool -->
-				<section class="wrapper" id="misnertraptool">
-					<div class="inner">
-						<div class="flex flex-2">
-							<div class="col col1 first">
-								<div class="image square fit">
-									<a href="images/misnertraptool.png" class="link"><img src="images/misnertraptool.png" alt="" /></a>
-								</div>
-							</div>
-							<div class="col col2">
-								<h3>Misner Trap Tool</h3>
-								<p>Graphically builds and sends SNMP notifications to a remote SNMP manager, including Traps and InformRequests. Allows saving of traps for future use, as well as building snmptrap arguments&nbsp;for sending from a remote system.&nbsp;Supports SNMP&nbsp;versions 1, 2c, and&nbsp;3.</p>
-                <p>Download: <a href="https://github.com/joemisner/misnertraptool/releases">https://github.com/joemisner/misnertraptool/releases</a></p>
-								<p>Latest Version: 2017.05.10</p>
-							</div>
-						</div>
+	<!-- Misner Splunk Tool -->
+	<section class="wrapper style1" id="misnersplunktool">
+		<div class="inner">
+			<div class="flex flex-2">
+				<div class="col col1 first">
+					<div class="image square fit">
+						<a href="images/misnersplunktool.png" class="link"><img src="images/misnersplunktool.png" alt="" /></a>
 					</div>
-				</section>
-
+				</div>
+				<div class="col col2">
+					<h3>Misner Splunk Tool</h3>
+					<p>Connects to a Splunk Enterprise or Universal Forwarder instance via REST API, retrieving the instance's configurations, input status, apps, and other useful information for troubleshooting and analysis. This tool's intention is to grant easy access into remote Splunk instances where shell or web access may not be available, but the splunkd management port (default 8089) is accessible.</p>
+					<p>Latest Version: 2017.07.26</p>
+          <p>Download: <a href="https://github.com/joemisner/misnersplunktool/releases">https://github.com/joemisner/misnersplunktool/releases</a></p>
+					<p>Project Page: <a href="https://github.com/joemisner/misnersplunktool">https://github.com/joemisner/misnersplunktool</a></p>
+				</div>
 			</div>
+		</div>
+	</section>
+
+	<!-- Misner Trap Tool -->
+	<section class="wrapper" id="misnertraptool">
+		<div class="inner">
+			<div class="flex flex-2">
+				<div class="col col1 first">
+					<div class="image square fit">
+						<a href="images/misnertraptool.png" class="link"><img src="images/misnertraptool.png" alt="" /></a>
+					</div>
+				</div>
+				<div class="col col2">
+					<h3>Misner Trap Tool</h3>
+					<p>Graphically builds and sends SNMP notifications to a remote SNMP manager, including Traps and InformRequests. Allows saving of traps for future use, as well as building snmptrap arguments&nbsp;for sending from a remote system.&nbsp;Supports SNMP&nbsp;versions 1, 2c, and&nbsp;3.</p>
+					<p>Latest Version: 2017.05.10</p>
+          <p>Download: <a href="https://github.com/joemisner/misnertraptool/releases">https://github.com/joemisner/misnertraptool/releases</a></p>
+					<p>Project Page: <a href="https://github.com/joemisner/misnertraptool">https://github.com/joemisner/misnertraptool</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="copyright">
-				<p>&copy; Copyright (C) 2015-2017 Joe Misner. </p>
+				<p>Copyright &copy; 2015-2017 Joe Misner
+					<script language="JavaScript">var u="joe"; var h="misner.net"; var t=u+"@"+h; document.write("&lt;<a href='"+"mail"+"to:"+u+"@"+h+"'>"+t+"</a>&gt;");</script>
+				</p>
 				<p>Design by <a href="https://templated.co">Templated.co</a>. The content of this website is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
         <p>Splunk is a trademark of Splunk Inc. in the United States and other countries.</p>
 			</div>
